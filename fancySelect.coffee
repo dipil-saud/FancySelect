@@ -86,7 +86,7 @@ $.fn.fancySelect = (opts = {}) ->
       sel.prop 'disabled', false
       wrapper.removeClass 'disabled'
       disabled = false
-      copyOptionsToList()
+      true
 
     sel.on 'disable', ->
       sel.prop 'disabled', true
